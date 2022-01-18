@@ -2,10 +2,10 @@
 
 ## Instalation Instructions
 
-### firstly - instal npm packege 
+### First, install npm package
 `npm install` or `yarn install`
 
-### after run an aplication
+### After, run the aplication
 `npm start` or `yarn start`
 
 ## User Instructions
