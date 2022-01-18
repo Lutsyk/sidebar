@@ -1,0 +1,56 @@
+table {
+    background-color: none;
+    width: 100%;
+    border-spacing: 10px;
+}
+
+.tHead {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+th {
+    padding: 15px;
+    background-color: rgb(189, 186, 186);
+    text-align: start;
+    position: relative;
+}
+
+.arrowSection>span::before{   
+    content: '\25B4';
+    position: absolute;
+    top: 20%;
+}
+.arrowSection>span::after{   
+    content: '\25BE';
+    position: absolute;
+    bottom: 20%;
+}
+
+.arrowSectionUp>span::after{   
+    content: '\25BE';
+    position: absolute;
+    bottom: 20%;
+    color:rgb(216, 2, 216)
+}
+
+.arrowSectionUp>span::before{   
+    content: '\25B4';
+    position: absolute;
+    top: 20%;
+}
+
+.arrowSectionDown>span::after{   
+    content: '\25BE';
+    position: absolute;
+    bottom: 20%;
+}
+
+.arrowSectionDown>span::before{   
+    content: '\25B4';
+    position: absolute;
+    top: 20%;
+    color:rgb(216, 2, 216)
+}
+

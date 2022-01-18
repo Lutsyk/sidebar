@@ -1,25 +1,44 @@
-import logo from './logo.svg';
 import './App.css';
+import React, { Component } from 'react'
+import TableMain from './components/table-main/table-main.component';
+import Home from './components/home/home.component';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+class App extends Component {
 
-export default App;
+  constructor(){
+    super()
+
+    this.state = {
+      sidebar: ''
+    };
+  }
+    //Component select function
+    handleClick = (e) => {
+      e.preventDefault()
+      if(e.target.value === 'home'){
+        this.setState({sidebar: e.target.value})
+      } else if (e.target.value === 'table'){
+        this.setState({sidebar: e.target.value})
+      } else {
+        console.error('error')
+      }
+    }
+  
+    render(){
+
+      return (
+        <>
+          <div className='sideBar'>
+            <button onClick={this.handleClick} value={'home'}>Home</button>
+            <button onClick={this.handleClick} value={'table'}>Table</button>
+          </div>
+          <div className='components'>
+            {this.state.sidebar === 'home' && (<Home/>)}
+            {this.state.sidebar === 'table' && (<TableMain/>)}
+          </div>
+        </>
+        );
+      }
+  }
+  
+  export default App;
