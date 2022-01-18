@@ -1,18 +1,5 @@
 # sidebar
 
-## User Instructions
-![mainPage](img/imgForReadme/mainPage.png)
-
-![homePage](img/imgForReadme/homePage.png)
-
-![tablePage](img/imgForReadme/tablePage.png)
-
-![sortRows](img/imgForReadme/sortRows.png)
-
-![sortRowsEx2](img/imgForReadme/sortRowsEx2.png)
-
-![tableSearchEx](img/imgForReadme/tableSearchEx.png)
-
 ## Instalation Instructions
 
 ### firstly - instal npm packege 
@@ -20,6 +7,19 @@
 
 ### after run an aplication
 `npm start` or `yarn start`
+
+## User Instructions
+![mainPage](./imgForReadme/mainPage.png)
+
+![homePage](./imgForReadme/homePage.png)
+
+![tablePage](./imgForReadme/tablePage.png)
+
+![sortRows](./imgForReadme/sortRows.png)
+
+![sortRowsEx2](./imgForReadme/sortRowsEx2.png)
+
+![tableSearchEx](./imgForReadme/tableSearchEx.png)
 
 ## Available Scripts
 
