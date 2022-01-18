@@ -9,16 +9,22 @@
 `npm start` or `yarn start`
 
 ## User Instructions
+
+Main Page
 ![mainPage](./imgForReadme/mainPage.png)
 
+Click on the `home` button to see Greeting
 ![homePage](./imgForReadme/homePage.png)
 
+Click on the `table` button to see the Table
 ![tablePage](./imgForReadme/tablePage.png)
 
+Click on the `table Name or Birth Year, Height, Mass` to see the row sort
 ![sortRows](./imgForReadme/sortRows.png)
 
 ![sortRowsEx2](./imgForReadme/sortRowsEx2.png)
 
+Click on the `Search input:('Type name here...')` and click `Search` button to search Table
 ![tableSearchEx](./imgForReadme/tableSearchEx.png)
 
 ## Available Scripts
